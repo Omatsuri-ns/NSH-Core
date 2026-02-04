@@ -149,7 +149,7 @@ Resultado: Ninja B recibe 298 de daño. Se resta de su VIT actual.
 @st.cache_resource
 def load_model():
     return genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
+        model_name="gemini-1.5-flash-001",
         generation_config=generation_config,
         system_instruction=system_instruction,
     )
